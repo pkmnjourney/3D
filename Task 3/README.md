@@ -1,4 +1,4 @@
-# Assignment #3
+# Task #3
 ## Introduction
 In this assignment, you will use Catmull-Rom splines along with OpenGL lighting and texture mapping to create a roller coaster simulation. The simulation will run in a first-person view, allowing the user to "ride" the coaster in an immersive environment. As with the first assignment, you will create an interesting animation after finishing the program itself. This time, the objective of your animation is to show off both your coaster and the features of your program.
 
