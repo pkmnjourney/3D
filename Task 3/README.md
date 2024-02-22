@@ -107,7 +107,7 @@ Similar to previous assignments, we also provide a starter code which already im
 - Reuse any code from the previous assignment that might save you some time. OpenGL programs tend to have a fair deal of overlap. Particularly, you might want to borrow some user control functionality, functions to read/write images, and any functions you might have made to automatically write out the frames for your animation. Don't overdo this to the degree that you have an awkward time changing things for this project--the general structure of your transformations and the state of your simulation will be significantly different from the layout of the previous assignment.
 - Do not load the texture before initializing OpenGL and GLUT (initialization happens when calling glutCreateWindow). Otherwise, there is no place to load the textures to, and textures won't work.
 - Experiment with your own ideas, and have fun.
-- ***If you stuck somewhere, contact the TAs for necessary assistance.***
+
 ### How to construct the railway
 As we mentioned, the railway is represented by a Catmull-Rom spline. After constructing the spline, you also have to move a car along this spline. To do so, the camera must have orientation which can be formulated by three orthogonal vectors and this orientation must be changed in a realistic manner when moving on the spine. One way to achieve this is to use the NTB space.
 
@@ -150,7 +150,3 @@ vert3 = curvePoint+(s*B)
 ```
 
 Another problem that can occur (depending on track configuration) is this: in high curvature areas (eg. where drops are situated), your second (offset) track might loop back on itself, ie. create an unwanted pinch/bubble/loop. How would you fix it? Simple - instead of using the normalized N to locate the track (which creates an inter-track spacing of 1 by definition), use a scaled down value, eg. 0.5N.
-
-
-## Show People What You Got!!!
-We recommend to use builtin record application of your OS (e.g. [MacOS](https://support.apple.com/en-ae/102618), [Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html)) to record your animation. We will compile a video of all student submissions and show it in class.
