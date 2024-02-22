@@ -9,8 +9,6 @@ After completing this assignment, you should have a solid understanding of:
 - **Texture maps** and their use in OpenGL
 - **Camera manipulations** --the use of transformations to create realistic first-person movement
 
-This assignment should be challenging, at least as much as the first assignment and likely more. However, it should also be a lot of fun! Please start early.
-
 ## Installing Dependencies
 This assignment requires OpenGL and OpenCV libraries for C++. All the dependencies were installed in the first assignment. If you have not installed them, please refer to the README file of the first assignment.
 
