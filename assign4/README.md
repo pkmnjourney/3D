@@ -1,4 +1,4 @@
-# Assignment #4
+# Task #4
 ## Introduction
 In this assignment, you will be building a ray tracer. Your ray tracer will be able to handle opaque surfaces with lighting and shadows. Provided for you will be starter code that will load scene data from a file.
 
