@@ -1,7 +1,6 @@
-# Assignment #5
+# Task #5
 ## Introduction
-In this assignment, you will build a rigid surface registration applications that can register multiple input meshes interactively. After completing this assignment, you should have a solid understanding of basic surface registration alogrithms including point-to-point and point-to-plane distance minimization.
-
+In this task, you will build a rigid surface registration applications that can register multiple input meshes interactively.
 A complete implementation should look similar to the below example when running on the first four bunny meshes:
 
 ![Example solution](./resources/example_solution.gif)
@@ -134,4 +133,4 @@ Similar to previous assignments, we also provide a starter code which already im
 
 
 ## Show People What You Got!!!
-There are rooms for creativity in this assignment. For example, you can create your own mesh, or improve the algorithms. We will showcase your results in front of the class.
+There are rooms for creativity in this task. For example, you can create your own mesh, or improve the algorithms. We will showcase your results in front of the class.
